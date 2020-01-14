@@ -34,10 +34,10 @@ do
 			if [ $? -ne 0 ]
 			then
 				echo "installing ansible"
-				sudo apt update -y
-				sudo apt install software-properties-common
+				sudo apt-get update -y
+				sudo apt-get install software-properties-common
 				sudo apt-add-repository --yes --update ppa:ansible/ansible
-				sudo apt install ansible -y
+				sudo apt-get install ansible -y
 			else
 				echo    "***********$name was installed*******************"
 			fi
