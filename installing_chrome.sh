@@ -3,6 +3,9 @@
 chromedriver_version="$(chromedriver --version)"
 if [[ ! $chromedriver_version ]]
 then
+	sudo apt-get install libnss -y*
+	sudo apt-get install libnss3 -y*
+	sudo apt-get install libX11 -y*
 	echo "Clean up existing files"
 	sudo rm -rf /usr/local/share/chromedriver
 	sudo rm -rf /usr/local/bin/chromedriver
