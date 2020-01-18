@@ -1,0 +1,61 @@
+pipeline {
+   agent any
+   stages {
+      stage('Git-Checkout') {
+         agent {label 'pipeline_slave_office'} 
+         steps {
+             echo "Checking out from Git repo"
+             git "https://github.com/rk280392/pipeline_scripts.git"
+         }
+      }
+        stage('Installing_package') {
+            agent {label 'pipeline_slave_office'}
+            steps {
+                echo "installing packages"
+                sh "/home/vagrant/jenkins/workspace/pipeline_script/installing_packages.sh"
+            }
+        }
+        stage('puppet agent config') {
+            agent {label 'pipeline_slave_office'}
+            steps {
+                echo "configuring puppet agent"
+                sh "/home/vagrant/jenkins/workspace/pipeline_script/configuring_puppet.sh"
+            }
+        
+        }
+        stage('puppet master config') {
+            agent any
+            steps {
+                echo "configuring puppet master"
+                sh "/var/lib/jenkins/jenkins/workspace/pipeline_script/puppet_master.sh"
+            }
+        
+        }
+        stage('docker slave config') {
+            agent {label 'pipeline_slave_office'}
+            steps {
+                echo "configuring docker slave"
+                git "https://github.com/rk280392/pipeline_scripts.git"
+                sh "/home/vagrant/jenkins/workspace/pipeline_script/installing_docker.sh"
+            }
+        
+        }
+        stage('docker build') {
+            agent {label 'pipeline_slave_office'}
+            steps {
+                echo "configuring docker master"
+                sh "/home/vagrant/jenkins/workspace/pipeline_script/deploy_build_docker.sh"
+            }
+        
+        }
+         stage('test') {
+            agent {label 'pipeline_slave_office'}
+            steps {
+                echo "testing"
+                cd "/home/vagrant/jenkins/workspace/pipeline_script/"
+                sh "py.test 1.py"
+            }
+        
+        }
+    }
+}
