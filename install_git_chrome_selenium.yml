@@ -9,3 +9,5 @@
                             - openssh-server
                     state: present
                     autoclean: yes
+         - name: Installing chromedriver and selenium
+           commands: sh installing_chrome.sh

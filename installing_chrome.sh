@@ -23,3 +23,15 @@ then
 else
 	echo "chromedriver version $chromedriver_version is alreay installed"
 fi
+selenium_version="$(python -c 'import selenium; print(selenium.__version__)')"
+if [[ ! $selenium_version ]]
+then
+	echo "*****************Installing python pip*****************"
+	sudo apt-get install python-pip -y
+	echo "*****************Installing selenium*******************"
+	pip install selenium
+	echo "$selenium_version"
+else
+	echo "********************Selenium was already installed************* version \"$selenium_version\""
+fi
+
