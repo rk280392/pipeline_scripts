@@ -9,10 +9,10 @@ hostname1="$(cat /proc/sys/kernel/hostname)"
 if [[ ! $cmd1  ]]
 then
 	echo "*******************Inserting into hosts file***********************"
-	cat <<EOT>> /etc/hosts
+	sudo bash -c 'cat <<EOT>> /etc/hosts
 	192.168.0.121 puppet project.edu.com
 	$ipaddress $hostname1
-EOT
+EOT'
 echo "**************************updated hosts file******************************"
 else
 	echo "************************hosts file up to date******************************************"
@@ -21,16 +21,16 @@ fi
 if [[ ! $cmd2 ]]
 then
 	echo "***************************inserting into config file********************************"
-	cat <<EOT>> /etc/puppet/puppet.conf
+	sudo bash -c 'cat <<EOT>> /etc/puppet/puppet.conf
 	[main]
 	server = project.edu.com
-EOT
+EOT'
 	echo "****************************updated puppet.conf****************************************"
 else
 	echo "****************************puppet.conf up to date****************************************"
 fi
 
-find /var/lib/puppet/ssl -name vagrant.vm.pem -delete
+sudo find /var/lib/puppet/ssl -name vagrant.vm.pem -delete
 
 echo "starting puppet agent"
 sudo systemctl restart puppet.service
