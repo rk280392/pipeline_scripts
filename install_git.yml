@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+          - name: Installing needed utilities
+            apt:
+                    name:
+                            - python
+                            - git
+                            - openssh-server
+                    state: present
+                    autoclean: yes
