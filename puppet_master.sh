@@ -7,5 +7,5 @@ if [[ $checkcert ]]
 then
 	sudo /opt/puppetlabs/bin/puppetserver ca sign --all
 else
-	"-----all certs updated -----------"
+	echo "-----all certs updated -----------"
 fi
