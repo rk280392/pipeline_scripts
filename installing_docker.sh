@@ -1,5 +1,5 @@
-mycmd="$(docker -v)"
-if [[ ! $mycmd ]]
+docker -v &> /dev/null
+if [[ $? -ne 0 ]]
 then
 	echo "update"
 	sudo apt-get update -y
