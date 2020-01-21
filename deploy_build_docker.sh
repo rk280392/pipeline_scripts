@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mycmd="$(docker ps -aq)"
+mycmd="$(sudo docker ps -aq)"
 if [[ $mycmd ]]
 then
 	echo "----------------------Stopping container------------------------"
