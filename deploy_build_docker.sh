@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo usermod -aG docker jenkins
 mycmd="$(sudo docker ps -aq)"
 if [[ !$mycmd ]]
 then
