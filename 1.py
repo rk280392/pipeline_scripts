@@ -17,7 +17,7 @@ def test_edureka():
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--no-sandbox");
     driver = webdriver.Chrome(options=chrome_options)
-    driver.get("http://172.31.255.16:5000/index.php")
+    driver.get("http://192.168.0.130:5000/index.php")
     driver.maximize_window()
     link = driver.find_element_by_xpath("//a[@id='About Us']")
     link.click()

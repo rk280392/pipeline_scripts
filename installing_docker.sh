@@ -1,9 +1,10 @@
+mycmd="$(docker ps -aq)"
 echo "update"
 sudo apt-get update -y
 echo "install a few prerequisite packages which let apt use packages over HTTPS:"
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
 echo "add the GPG key for the official Docker repository to your system"
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - --no-tty
 echo "Add the Docker repository to APT sources:"
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 echo "update the package database with the Docker packages from the newly added repo:"
