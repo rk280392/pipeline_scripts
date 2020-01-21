@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mycmd="$(sudo docker ps -aq)"
-if [[ $mycmd ]]
+if [[ !$mycmd ]]
 then
 	echo "----------------------Stopping container------------------------"
 	sudo docker stop $(docker ps -aq)
