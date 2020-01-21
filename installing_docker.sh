@@ -14,4 +14,4 @@ apt-cache policy docker-ce
 echo "installing docker"
 sudo apt-get install docker-ce -y
 echo "updating required packages"
-bash required_package.sh
+sudo bash required_package.sh
