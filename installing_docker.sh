@@ -1,5 +1,5 @@
 mycmd= "$(docker -v)"
-if [[ !$mycmd ]]
+if [[ ! $mycmd ]]
 then
 	echo "update"
 	sudo apt-get update -y
@@ -15,6 +15,9 @@ then
 	sudo apt-cache policy docker-ce
 	echo "installing docker"
 	sudo apt-get install docker-ce -y
+	sudo usermod -a -G docker jenkins
+	sudo setfacl -m user:jenkins:rw /var/run/docker.sock
+	sudo newgrp docker
 else
 	echo "-------- docker was already installed-------------"
 fi
