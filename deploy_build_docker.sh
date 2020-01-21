@@ -1,12 +1,15 @@
 #!/bin/bash
+echo "----adding jenkins user to docker group---------"
 sudo usermod -aG docker jenkins
+echo "-------checking if any image exists--------"
 mycmd="$(sudo docker ps -aq)"
+
 if [[ !$mycmd ]]
 then
 	echo "----------------------Stopping container------------------------"
-	sudo docker stop $(docker ps -aq)
+	sudo docker stop $(sudo docker ps -aq)
 	echo "-------------------------removing containers--------------------"
-	sudo docker rm $(docker ps -aq)
+	sudo docker rm $(sudo docker ps -aq)
 	echo "----------------------------building docker---------------------"
 	sudo docker build -t projectimage:$BUILD_NUMBER .
 	echo "----------------------running container-------------------------"
