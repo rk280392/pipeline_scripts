@@ -1,0 +1,87 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.36">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.5.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.5.0">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.78">
+    <script>pipeline {
+   agent any
+   stages {
+      stage(&apos;Git-Checkout&apos;) {
+         agent {label &apos;vagrant_slav_home&apos;} 
+         steps {
+             echo &quot;Checking out from Git repo&quot;
+             git &quot;https://github.com/rk280392/pipeline_scripts.git&quot;
+         }
+      }
+        stage(&apos;Installing_package&apos;) {
+            agent {label &apos;vagrant_slav_home&apos;}
+            steps {
+                echo &quot;installing packages&quot;
+                sh &quot;/home/vagrant/jenkins/workspace/pipeline_script/installing_packages.sh&quot;
+            }
+        }
+        stage(&apos;puppet agent config&apos;) {
+            agent {label &apos;vagrant_slav_home&apos;}
+            steps {
+                echo &quot;configuring puppet agent&quot;
+                sh &quot;/home/vagrant/jenkins/workspace/pipeline_script/configuring_puppet.sh&quot;
+            }
+        
+        }
+        stage(&apos;puppet master config checkout&apos;) {
+            steps {
+                echo &quot;cloning github&quot;
+                git &quot;https://github.com/rk280392/pipeline_scripts.git&quot;
+            }
+        
+        }
+         stage(&apos;puppet master config build&apos;) {
+            steps {
+                echo &quot;running puppet master script&quot;
+                sh &quot;./puppet_master.sh&quot;
+            }
+        
+        }
+        stage(&apos;docker slave config&apos;) {
+            agent {label &apos;vagrant_slav_home&apos;}
+            steps {
+                echo &quot;configuring docker slave&quot;
+                git &quot;https://github.com/rk280392/pipeline_scripts.git&quot;
+                sh &quot;/home/vagrant/jenkins/workspace/pipeline_script/installing_docker.sh&quot;
+            }
+        
+        }
+        stage(&apos;docker build&apos;) {
+            agent {label &apos;vagrant_slav_home&apos;}
+            steps {
+                echo &quot;configuring docker master&quot;
+                git &quot;https://github.com/rk280392/pipeline_scripts.git&quot;
+                sh &quot;/home/vagrant/jenkins/workspace/pipeline_script/deploy_build_docker.sh&quot;
+            }
+        
+        }
+         stage(&apos;test&apos;) {
+            agent {label &apos;vagrant_slav_home&apos;}
+            steps {
+                echo &quot;testing&quot;
+                sh &quot;py.test 1.py&quot;
+            }
+        
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

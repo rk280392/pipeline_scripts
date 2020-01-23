@@ -1,0 +1,415 @@
+Started by user [8mha:////4I18CeMrxuY/suk+3HJcGJjPPa6yBGkJjEV2uGG/vLuXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9osSs1OKMbADm+tBYwgAAAA==[0mRajesh Kumar
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Bfynt1+uTrWnU39WpiNzatMI8tEbwUMC87CFK/Q3vfNAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HPz548/B3ceZicLh6R49Yjvd0VGOjdUiEpkm187VH+4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OC5uu4ANIp1QTQLlilp9G7rryhzqwTzUvlR9DqmAqeNAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline_script
+[8mha:////4JkckB2IVopA1AGZ0wOeCuG+o2xCP8Z2zJKe/CjCtzdPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Ci2xk/etCKrK4PAmh/AodXakYxfoSqwnvoW0/YsBQWcAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PkIQjq6PyJyrlXPeG9rnSn5hVlBWkoHXLuoEZtofFmiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Git-Checkout)
+[8mha:////4IBBgrRe87QNbLJmSNr1rCLUS26pGoBmy6XPYW5hIZ9MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4BHZc1yGw+O4PYRYd5UJFpkFmHe/zRYnTB0KUG+hYYUCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4C3SzXH5X1H+B33pAWdJ1LoZSRnJLODzIW5Q4k46dVCRAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Checking out from Git repo
+[8mha:////4HjeX4FX0XWwzWrkHcFlnktUSJMDEwJMHZ80CKf9IL0OAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] git
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/rk280392/pipeline_scripts.git # timeout=10
+Fetching upstream changes from https://github.com/rk280392/pipeline_scripts.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rk280392/pipeline_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 922a75923920100acb76e2be9f34dfd34a2d3096 (refs/remotes/origin/master)
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+Commit message: "reverted the docker changes"
+ > git branch -D master # timeout=10
+ > git checkout -b master 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+ > git rev-list --no-walk 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+[8mha:////4MgEzeD1bteH8WIFp11jm/B2d8gAMNMTtIdlA+H+dXA/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Dw0YGCo+5KVUJD9VKZ60g+u7OJG09P3NmX1oHZwx4cYAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // node
+[8mha:////4Eo+Qd5cpJMxLfg+vApXcU8iQg9RygTEfr8Z8UAjsNRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AHkw63u9AAAA[0m[Pipeline] }
+[8mha:////4MBG4vGBrrXBbZnIwQ7C83n+7iu0CPElJ09bIkLBIRScAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // stage
+[8mha:////4MkJbZW56+t6IV6BGGNvgB5T7Af1JyFh71DTk3v37DOTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4MBFWFRaVLaZ3mYtdXrmWswUu6Fu8jdCiN0DFA42FuCHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Installing_package)
+[8mha:////4Cznf4DyaaqImLQ8WMHd12ZlBUr7KqAWCQAJ6wxHyM1vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4GKl5uErBDoDDETFUA0KDO3ALzMdCcushV9Yr0LSDw7jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4FOZeAXA4v7kHQJvrG2HHCE8Pw5NcN6n4+0pTSOss7PGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] echo
+installing packages
+[8mha:////4EmaDtP0eF/XpSNLT1mxhuEwgfNypKfIyXcz3Mb47QKgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ /home/vagrant/jenkins/workspace/pipeline_script/installing_packages.sh
+***********wget was installed*******************
+***********puppet was installed*******************
+***********ansible was installed*******************
+[8mha:////4HxCIR2Hhz9PbkdWpk6IB/VpTae0Hv6/fTAA2nKs//HGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4CbvBOIBk81dEie+9qFk2eTCsXSMUAvSoVqMr46uTD8iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // node
+[8mha:////4H5jXDh9vyoJ2b/7RVjy30isPG3EkvljbAs3sy5g4WlUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] }
+[8mha:////4N8jVI6q633XdKFUQWpAntQdwPZzrOV7FoupHA8otV83AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AG9C/nMvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JI5oKec9SNoKz9QyaDYZtmbqznqNaVYVlYDPnymIFBFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvmG8PMMEAAAA=[0m[Pipeline] stage
+[8mha:////4IGxr0a0rnGg+QzSes/CV2h9a43RXrQg9YXUDffWYcalAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (puppet agent config)
+[8mha:////4FFd49IHi5yeUKXNO5j8qxtA5c6ufsd+KCaipD0+bWsXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4DYX/uwUqpkhn3UNFvWTsBKCXNLw0uQKuhYMN8nDC9r8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4EaccPbph+Jk0VlXrfIk+ETulQe6Trj/VVLnPjSTDNomAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] echo
+configuring puppet agent
+[8mha:////4NwZ3iOnAiws0d7GZQxsac1c4Ri2MbqF0cduCSlzEtz2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] sh
++ /home/vagrant/jenkins/workspace/pipeline_script/configuring_puppet.sh
+************************hosts file up to date******************************************
+****************************puppet.conf up to date****************************************
+starting puppet agent
+enabling puppet agent
+Synchronizing state of puppet.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable puppet
+[8mha:////4D2lCxEaUAIdAGZyAyCLhgv8/bojyM85zTsoGqb3lLigAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Evt9vvgAAAA==[0m[Pipeline] }
+[8mha:////4NJHAuQpKy/LXcDSn2T8WSKzERp0nIoXaYpYGvUihn+KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/70fR5vgAAAA==[0m[Pipeline] // node
+[8mha:////4OY3vTFP8lCsxq7cflJr+QFKmM8VMydo6stxT2SQCGwzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/IMq/FvgAAAA==[0m[Pipeline] }
+[8mha:////4NSKTslpH/8s5r7APIFablZzeR7fBVavQZde+jrjNR8kAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/KU6NBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BGMH2+X11sxMg2fOSjdJhfPJrIrj3hSIXN1t2iHbwpYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTABWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INLGR4lsEAAAA=[0m[Pipeline] stage
+[8mha:////4J9HTycCtT4KCNhtDvQt2BeSAJpxAXifnL2wLASY7uV4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (puppet master config checkout)
+[8mha:////4GKFXgnUILaO0njp53tR+2f1VELaOlY0zZf95wecPfEUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] echo
+cloning github
+[8mha:////4PwiCmpvYtjAyYWeKGSyuSi7wE7DDYT5mOzNz0Oup8wjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rk280392/pipeline_scripts.git # timeout=10
+Fetching upstream changes from https://github.com/rk280392/pipeline_scripts.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rk280392/pipeline_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 922a75923920100acb76e2be9f34dfd34a2d3096 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+Commit message: "reverted the docker changes"
+[8mha:////4DZQaRfEvEyPMPV+CcMBjgyOy0IgG7emR4vUrxhEy9TAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] }
+[8mha:////4FOZBVfKZ00IzOaE8TfYokrLAdJSNL25y3SMYw/QYZ1DAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AETHo4GvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PlG3Sxodd+j2qtF/43UhHcNCnI3wwR0jMQWAYKSg0TtAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjpHSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDUe8+x/INtBhOyMEAAAA=[0m[Pipeline] stage
+[8mha:////4IRpzBvAC+eOqzRme4RneI0uzDwn7hZsSBrIwq4aP9vTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (puppet master config build)
+[8mha:////4J3xLAk76xdqnx8Iz6zKq5Tj0r4BPo94ZDjP4FM0vgNGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] echo
+running puppet master script
+[8mha:////4B6r7uZb6bT/m9sqbzx2xKJ5xvPoIfVhYq8tYnRUHlmDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] sh
++ ./puppet_master.sh
+Synchronizing state of puppetserver.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable puppetserver
+-----all certs updated -----------
+[8mha:////4D0KFFyzwCMnGcpcky2jWwszkPDypwEoFtwdEx7s6ZX5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8SMZoe+AAAA[0m[Pipeline] }
+[8mha:////4KJG3VvRQAZmyLhcT5GprcK4H6WBY8oJmmtB/LBhu2W/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHQr/uYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HIxSt+MLdOIyVYS6tedPYrIaxnfdK1N+4g2TTggnPs7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTRKJAVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBoWgYymb3OVZvqfsXHsEAAAA=[0m[Pipeline] stage
+[8mha:////4IUOapY9CTT11JMs0FhmOpzesRxbcUah3Q8iaqr/gxEoAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (docker slave config)
+[8mha:////4N2kzji+IIjRvKNuJ6K6kvWiYmQPuZoBLTdAROHVtYYTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4Pgdsbtz1pe+g0XMxSy2kAJrQWNeS3vx44OirUVDo1ImAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4EcJiI211M87VipzAPgPkRGQchjmWiPkz8MwMDL9WYrOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] echo
+configuring docker slave
+[8mha:////4K6MVcHV+aLzymZ+wqWvEN1emgTA43Lwa3q/IJSlpMEcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzevXxC+AAAA[0m[Pipeline] git
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision 922a75923920100acb76e2be9f34dfd34a2d3096 (refs/remotes/origin/master)
+Commit message: "reverted the docker changes"
+[8mha:////4Eg1bEmpC6aCiGI+7RyZb5wkxFjlhEYMvDb/aL4UrdVfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN3aeRAm+AAAA[0m[Pipeline] sh
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/rk280392/pipeline_scripts.git # timeout=10
+Fetching upstream changes from https://github.com/rk280392/pipeline_scripts.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rk280392/pipeline_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
++ /home/vagrant/jenkins/workspace/pipeline_script/installing_docker.sh
+update
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Hit:2 http://ppa.launchpad.net/ansible/ansible/ubuntu bionic InRelease
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:4 http://apt.puppetlabs.com bionic InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu bionic InRelease
+Ign:6 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:8 http://dl.google.com/linux/chrome/deb stable Release
+Hit:9 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists...
+install a few prerequisite packages which let apt use packages over HTTPS:
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20180409).
+curl is already the newest version (7.58.0-2ubuntu3.8).
+software-properties-common is already the newest version (0.96.24.32.12).
+apt-transport-https is already the newest version (1.6.12).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+Executing: /tmp/apt-key-gpghome.VjF4Z46Ld0/gpg.1.sh --keyserver keyserver.ubuntu.com --recv-keys 7EA0A9C3F273FCD8
+gpg: key 8D81803C0EBFCD88: 8 signatures not checked due to missing keys
+gpg: key 8D81803C0EBFCD88: "Docker Release (CE deb) <docker@docker.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+add the GPG key for the official Docker repository to your system
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+YT90qFF93M3v01BbxP+EIY2/9tiIPbrd
+=0YYh
+-----END PGP PUBLIC KEY BLOCK-----
+Add the Docker repository to APT sources:
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/ansible/ansible/ubuntu bionic InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:5 http://apt.puppetlabs.com bionic InRelease
+Hit:6 http://dl.google.com/linux/chrome/deb stable Release
+Hit:7 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:8 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:9 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists...
+update the package database with the Docker packages from the newly added repo:
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/ansible/ansible/ubuntu bionic InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:5 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:7 http://apt.puppetlabs.com bionic InRelease
+Hit:8 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:9 http://dl.google.com/linux/chrome/deb stable Release
+Reading package lists...
+Make sure you are about to install from the Docker repo instead of the default Ubuntu repo
+docker-ce:
+  Installed: 5:19.03.5~3-0~ubuntu-bionic
+  Candidate: 5:19.03.5~3-0~ubuntu-bionic
+  Version table:
+ *** 5:19.03.5~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+        100 /var/lib/dpkg/status
+     5:19.03.4~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:19.03.3~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:19.03.2~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:19.03.1~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:19.03.0~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.9~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.8~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.7~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.6~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.5~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.4~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.3~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.2~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.1~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     5:18.09.0~3-0~ubuntu-bionic 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     18.06.3~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     18.06.2~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     18.06.1~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     18.06.0~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+     18.03.1~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+installing docker
+Reading package lists...
+Building dependency tree...
+Reading state information...
+docker-ce is already the newest version (5:19.03.5~3-0~ubuntu-bionic).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+usermod: user 'jenkins' does not exist
+setfacl: Option -m: Invalid argument near character 6
+updating required packages
+Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/ansible/ansible/ubuntu bionic InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:5 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:7 http://apt.puppetlabs.com bionic InRelease
+Hit:8 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Hit:9 http://dl.google.com/linux/chrome/deb stable Release
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libxi6 is already the newest version (2:1.7.9-1).
+unzip is already the newest version (6.0-21ubuntu1).
+libgconf-2-4 is already the newest version (3.2.6-4ubuntu1).
+xvfb is already the newest version (2:1.19.6-1ubuntu4.3).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-pip is already the newest version (9.0.1-2.3~ubuntu1.18.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+------------chrome is up to date------------------
+----------chromedriver is up tp date------------
+The directory '/home/vagrant/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/vagrant/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: selenium in /usr/local/lib/python2.7/dist-packages
+Requirement already satisfied: urllib3 in /usr/local/lib/python2.7/dist-packages (from selenium)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-pytest is already the newest version (3.3.2-2).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+[8mha:////4K0nWOAjonJpoKjRfebLawJnVePeH3uWqhIykEbAI7ppAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] }
+[8mha:////4G9/77tSHCxA+g9Alv+5/QoktOZYO/XybSaXEfR1/mq4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpSIEQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AH4XsO2vgAAAA==[0m[Pipeline] // node
+[8mha:////4AAC5VlG06W/VqcY8WU2CA7RF5sAj5LapyRwp9jBHHs2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAEJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/AHFBHvgAAAA==[0m[Pipeline] }
+[8mha:////4G1LCANUAwZeLahR8snV35+U+WfNWjqF/VmCUBdY2nt8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QH00rMcvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CQKA0Cx8NHbCJBfGtgGE3LUR8McWfRwoguibaLeWgTwAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTgISEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A8hCNknBAAAA[0m[Pipeline] stage
+[8mha:////4M3AYOLjH5tnppGeX9qXSo6QgxCA+3ECbkiqgHaoHAwgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (docker build)
+[8mha:////4GkcLxRoaCqimLRpYhOJEQ4x/ps6KkX21vFqDIjDLCUBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4J0MWUn/5cQqGj6BYjWXiOlbrYcLMeF+4wYzMTMnmDaxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4L9kCKJzR2vDNRLSzulyQMM7L3lanq5ZJn68LLhaV57fAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] echo
+configuring docker master
+[8mha:////4CVJgizO5pPLbuNVUnWIYrY1vqQViih2NW2VGzFPgwZSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF4LPojvgAAAA==[0m[Pipeline] git
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://github.com/rk280392/pipeline_scripts.git # timeout=10
+Fetching upstream changes from https://github.com/rk280392/pipeline_scripts.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rk280392/pipeline_scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 922a75923920100acb76e2be9f34dfd34a2d3096 (refs/remotes/origin/master)
+Commit message: "reverted the docker changes"
+[8mha:////4PBRZdX3DAgghyzZzE5McDbfakdGcIqirfOSE4AXKweGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAG/urtsvgAAAA==[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 922a75923920100acb76e2be9f34dfd34a2d3096 # timeout=10
++ /home/vagrant/jenkins/workspace/pipeline_script/deploy_build_docker.sh
+----adding jenkins user to docker group---------
+usermod: user 'jenkins' does not exist
+-------checking if any image exists--------
+----------------------Stopping container------------------------
+98cd0d98fb43
+-------------------------removing containers--------------------
+98cd0d98fb43
+----------------------------building docker---------------------
+Sending build context to Docker daemon  5.121MB
+Step 1/4 : FROM devopsedu/webapp
+ ---> 0ef91240e173
+Step 2/4 : COPY website_project /var/www/html/
+ ---> Using cache
+ ---> c807e28e05ac
+Step 3/4 : EXPOSE 8223
+ ---> Using cache
+ ---> 4d13838bb948
+Step 4/4 : CMD ["apachectl", "-D", "FOREGROUND"]
+ ---> Using cache
+ ---> ef527403c049
+Successfully built ef527403c049
+Successfully tagged projectimage:78
+----------------------running container-------------------------
+2f77cf12d7be9b3dc5871aa44178b9c173a78513909288ed3fe036db68ca681f
+[8mha:////4PixVtd79NdRvWuwv3e20BKhEApmP4rSiMa8ortu+famAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN9Wuxru+AAAA[0m[Pipeline] }
+[8mha:////4BZQO77BU1JhNMTuYcc84jumQXMDhZos1tDtwD80K33GAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJClQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3f7exVSr4AAAA=[0m[Pipeline] // node
+[8mha:////4J3MCa+dzhZqRbEKQBFPQfu2bDCRh1p5L0eGBbou+ZzXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEv1PjTvgAAAA==[0m[Pipeline] }
+[8mha:////4AkGz7ouVL4GQadewEwPJROJ4ccy5OOyE1jjQQPwOU9FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgSIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFsVqlVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EUHGXj9GVuarZRLO43ejygt3an9M+l2iUgJcFFrT+qpAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICSEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A/CLgrPBAAAA[0m[Pipeline] stage
+[8mha:////4CO7uaNC3NdY2Lmr/8d4ofFvxLGPzaUld/D8+6MUogIXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] { (test)
+[8mha:////4AvHKBDsyaCIAFCJZnfJ4aTt8e4XXTohr769b2uT071uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] node
+Running on [8mha:////4N9teeOxnp95AnQyXq4bMGBHI8RaheRr9HkSaZpPQLLFAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYZ/eT83ILSktQi/bLE9KLEvJL44pzEsviM/NxUfQCxvbEZ0QAAAA==[0mvagrant_slav_home in /home/vagrant/jenkins/workspace/pipeline_script
+[8mha:////4P6PIevQvGf1JETwYZqtguNxgreK6C6Q8+tYc0oc4C1WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] {
+[8mha:////4KTsSSXuckd6+YWa63v0ZvbqqTa5Df3/hI4SHvEASNcbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFMXHrfvgAAAA==[0m[Pipeline] echo
+testing
+[8mha:////4PGut5U9QJsFq+pFZ1FpgbykQNFQZbwzvugjuSgK6ltdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2LyjuQvgAAAA==[0m[Pipeline] sh
++ py.test 1.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.17, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+rootdir: /home/vagrant/jenkins/workspace/pipeline_script, inifile:
+collected 1 item
+
+1.py .                                                                   [100%]
+
+========================== 1 passed in 14.30 seconds ===========================
+[8mha:////4DXBhe2ZXZWOTIwCAihbFMf/1goZ2kYN0dIEfZtvk1DnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g2axaOdvgAAAA==[0m[Pipeline] }
+[8mha:////4E2Thrkx9AQJeuo32RTBvRGzeC4CGiMqlrTMixr43P/lAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN47mPoK+AAAA[0m[Pipeline] // node
+[8mha:////4PC5pb4MwpLo8KQyfdvTiZ0JvxI0IU5FzNvzRpc9sS29AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJClwJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvQVlPr4AAAA=[0m[Pipeline] }
+[8mha:////4G6Vx/z35hG4jfYXhr1mJEI1jTdZxjAmrp6QSfBauaVCAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8RFKRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AGNPvSvvgAAAA==[0m[Pipeline] // stage
+[8mha:////4N0bjaTigwJXpgYsE4HxAlTNIChnDQMxW3JyklBW61HhAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AOmqDAm9AAAA[0m[Pipeline] }
+[8mha:////4DeDJR9DHfgOgA+f5Md5CSoQ85k16uBl4hrbbNbbX+9cAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AO7vLmu9AAAA[0m[Pipeline] // node
+[8mha:////4ApKDhNHrg7MFuEjh+v+JjuIcKOtcZgKEg7mwppu715MAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPyPZJIb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
